@@ -53,5 +53,5 @@ the appendix.pdf is the online supplement file for the paper "Fine-Grained Job S
 
 ## experimental results
 you can access more results from the oringinal paper.
-![avatar](https://github.com/qingxin-meng/NDP-JSB/blob/main/figure/5-cross-fin.png)
+![avatar](https://github.com/qingxin-meng/NDP-JSB/blob/main/figure/5-cross-it.png)
 ![avatar](https://github.com/qingxin-meng/NDP-JSB/blob/main/figure/5-cross-fin.png)
