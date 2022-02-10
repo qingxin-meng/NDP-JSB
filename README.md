@@ -4,11 +4,11 @@
 If you use the code or datasets in this repository, please acknowledge the paper **"Fine-Grained Job Salary Benchmarking with a Nonparametric Dirichlet-process-based Latent Factor Model"**
 
 ## data
-You can download the raw datasets used in this paper via the link (with data descriptions): 
+You can download the raw datasets used in this paper via the link (cleaned, in csv format, with data descriptions): 
 
 *https://drive.google.com/drive/folders/1eW_30c-ZHYfBip4GAed-DsG9OLqyJZXT?usp=sharing*
 
-You can download the preprocessed data in this paper via the link: 
+You can download the preprocessed data (based on the raw datasets above) in this paper via the link: 
 
 *https://drive.google.com/drive/folders/1RsTLFg5tSmESQAkypr5G8-tW48nGMO66?usp=sharing*
 
