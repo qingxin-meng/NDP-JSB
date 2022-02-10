@@ -14,15 +14,17 @@ You can download the preprocessed data in this paper via the link:
 
 Please be aware of that, if you want to run the model using our datasets directly, you need to download the preprocessed data and put them under the directory: **"src/source_file"** .
 
-## prerequisites (please install the following packages before you run this module)
+## prerequisites (please install the following packages before you run this model NPD-JSB)
 - python 3.6
 - numpy 1.19.2
 - pandas 1.1.3
 - scipy 1.5.2
 
-## intrustions to run the model
-The src file include all source code and a source_file folder which include all preprocessed data.
-To run the module, you need to download the whole src folder. Then open a terminal to run the commands. According to the different data spliting settings and datasets, there are four different options. I list the four options and the corresponding commands as below.
+## intrustions to run the model NPD-JSB
+The src folder include source code of the model NPD-JSB.
+
+To run the model, you need to download the whole src folder. Then open a terminal to run the commands as below. According to the different data spliting settings and datasets, there are four different options. I list the four options and the corresponding commands as below.
+
 - option 1 (runing the NPD-JSB model on the IT dataset with 5 cross-validation):
 
  `python main.py --data_split_type cross_validate --data_source it`
