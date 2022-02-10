@@ -12,7 +12,7 @@ You can download the preprocessed data in this paper via the link:
 
 *https://drive.google.com/drive/folders/1RsTLFg5tSmESQAkypr5G8-tW48nGMO66?usp=sharing*
 
-Please be aware of that, if you want to run the model using our datasets directly, you need to download the prprocessed data and put them under the directory: **"src/source_file"** .
+Please be aware of that, if you want to run the model using our datasets directly, you need to download the preprocessed data and put them under the directory: **"src/source_file"** .
 
 ## prerequisites (please install the following packages before you run this module)
 - python 3.6
