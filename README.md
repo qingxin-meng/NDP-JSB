@@ -46,7 +46,7 @@ the appendix.pdf is the online supplement file for the paper "Fine-Grained Job S
 
 - Proof of the Variational Inference Process,
 - Proof of Updating Formulas,
-- The algorithms of generative and optimization process of NDP-JSB,
+- The Algorithms of Generative and Optimization Process of NDP-JSB,
 - Baselines Introduction,
 - Statistics and Descriptions of Datasets,
-- Additional experimental results.
+- Additional Experimental Results.
