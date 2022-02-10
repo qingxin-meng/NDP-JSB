@@ -8,7 +8,7 @@ You can download the raw datasets used in this paper via the link (cleaned, in c
 
 *https://drive.google.com/drive/folders/1eW_30c-ZHYfBip4GAed-DsG9OLqyJZXT?usp=sharing*
 
-You can download the preprocessed data (based on the raw datasets above) in this paper via the link: 
+You can download the preprocessed data in this paper via the link (in pickle format, for code running purpose): 
 
 *https://drive.google.com/drive/folders/1RsTLFg5tSmESQAkypr5G8-tW48nGMO66?usp=sharing*
 
