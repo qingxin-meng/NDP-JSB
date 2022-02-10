@@ -41,3 +41,12 @@ To run the model, you need to download the whole src folder. Then open a termina
 
  `python main.py --data_split_type proportional --data_source finance`
  
+## appendix
+the appendix.pdf is the online supplement file for the paper "Fine-Grained Job Salary Benchmarking with a Nonparametric Dirichlet-process-based Latent Factor Model". It includes:
+
+- Proof of the Variational Inference Process,
+- Proof of Updating Formulas,
+- The algorithms of generative and optimization process of NDP-JSB,
+- Baselines Introduction,
+- Statistics and Descriptions of Datasets,
+- Additional experimental results.
