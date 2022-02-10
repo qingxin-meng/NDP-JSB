@@ -33,7 +33,7 @@ if args.data_split_type=='cross_validate':
             print('===============this is for lower bound================')
         else:
             print('===============this is for upper bound================')
-        data_gen = data.generate_fold(lower_or_upper=lu, construct_baseline_file=False)
+        data_gen = data.generate_fold(lower_or_upper=lu, construct_baseline_file=True)
         for fold in range(5):
             print('This is fold: {}'.format(fold))
             input = list(next(data_gen))

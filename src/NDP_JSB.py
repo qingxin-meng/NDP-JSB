@@ -22,9 +22,9 @@ scipy.special.loggamma
 
 
 class optimization():
-    def __init__(self, beta=1, omega=1, max_voc=5000, lambda_t=1,
+    def __init__(self, beta=1, omega=1, max_voc=5000, lambda_t=0.1,
                  lambda_s_a=1 , lambda_s_b=0.1, lambda_psi=1, latent_dim=5,
-                 K=60, industry_dim=26, radius=1, update_varphi=True): 
+                 K=60, industry_dim=26, radius=1, update_varphi=False): 
 
         self.beta = beta
         self.omega = omega
@@ -482,15 +482,15 @@ class optimization():
         phi = phi / np.sum(phi, axis=1)[:, None]
 
         ## compute the loglikelihood_ctr
-        for i in range(num_position):
-            Gi = G[i]
-            for n in range(voc_length[i]):
-                w = W_in[i][n]
-                for l in range(latent_dim):
-                    if (1e-9 + new_varphi[l, i] * phi[l, w]) < 0 or (1e-9 + Gi[n, l]) < 0:
-                        set_trace()
-                    loglikelihood_ctr += Gi[n, l] * (
-                                np.log(1e-9 + new_varphi[l, i] * phi[l, w]) - np.log(1e-9 + Gi[n, l]))
+        # for i in range(num_position):
+        #     Gi = G[i]
+        #     for n in range(voc_length[i]):
+        #         w = W_in[i][n]
+        #         for l in range(latent_dim):
+        #             if (1e-9 + new_varphi[l, i] * phi[l, w]) < 0 or (1e-9 + Gi[n, l]) < 0:
+        #                 set_trace()
+        #             loglikelihood_ctr += Gi[n, l] * (
+        #                         np.log(1e-9 + new_varphi[l, i] * phi[l, w]) - np.log(1e-9 + Gi[n, l]))
         # print('loglikelihood_ctr:{:.10e}'.format(loglikelihood_ctr))
         # print('updating ctr need time:{} min'.format((time.time() - time1) / 60))
         return phi, new_varphi, new_G

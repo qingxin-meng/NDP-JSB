@@ -155,11 +155,11 @@ class data():
                 name = 'lower'
             else:
                 name = 'upper'
-            with open('data_for_baseline/train_data_' + name + '_trainpropotion{}.txt'.format(train_proportion), 'w') as f:
+            with open('train_data_' + name + '_trainpropotion{}.txt'.format(train_proportion), 'w') as f:
                 for i, jm, s in self.train_set:
                     f.write(str(i) + '\t' + str(jm) + '\t' + str(s) + '\n')
 
-            with open('data_for_baseline/test_data_' + name + '_trainpropotion{}.txt'.format(train_proportion), 'w') as f:
+            with open('test_data_' + name + '_trainpropotion{}.txt'.format(train_proportion), 'w') as f:
                 for i, jm, s in self.test_set:
                     f.write(str(i) + '\t' + str(jm) + '\t' + str(s) + '\n')
 
@@ -474,11 +474,11 @@ class data():
             name='lower'
         else:
             name='upper'
-        with open('data_for_baseline/train_data_'+name+'_fold{}.txt'.format(fold),'w') as f:
+        with open('train_data_'+name+'_fold{}.txt'.format(fold),'w') as f:
                 for i,jm,s in self.train_set:
                     f.write(str(i)+'\t'+str(jm)+'\t'+str(s)+'\n')
 
-        with open('data_for_baseline/test_data_'+name+'_fold{}.txt'.format(fold),'w') as f:
+        with open('test_data_'+name+'_fold{}.txt'.format(fold),'w') as f:
                 for i,jm,s in self.test_set:
                     f.write(str(i)+'\t'+str(jm)+'\t'+str(s)+'\n')
 
