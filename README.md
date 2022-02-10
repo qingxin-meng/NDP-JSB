@@ -6,11 +6,15 @@ If you use the code or datasets in this resporsiry, please acknowedge the paper 
 
 ## data
 
-You can download the raw datasets used in this paper via the link: *https://drive.google.com/drive/folders/1eW_30c-ZHYfBip4GAed-DsG9OLqyJZXT?usp=sharing*
+You can download the raw datasets used in this paper via the link: 
 
-You can download the preprocessed data in this paper via the link: *https://drive.google.com/drive/folders/1RsTLFg5tSmESQAkypr5G8-tW48nGMO66?usp=sharing*
+*https://drive.google.com/drive/folders/1eW_30c-ZHYfBip4GAed-DsG9OLqyJZXT?usp=sharing*
 
-Please be aware of that, if you want to run the model using our datasets directly, you need to download the prprocessed data in the folder $\color{blue}{"source_file"}$ and put them under the folder $\color{blue}{"src"}$.
+You can download the preprocessed data in this paper via the link: 
+
+*https://drive.google.com/drive/folders/1RsTLFg5tSmESQAkypr5G8-tW48nGMO66?usp=sharing*
+
+Please be aware of that, if you want to run the model using our datasets directly, you need to download the prprocessed data in the folder <font color=blue>"source_file"</font> and put them under the folder <font color=blue>"src"</font>.
 
 ## prerequisites (please install the following packages before you run this module)
 - python 3.6
