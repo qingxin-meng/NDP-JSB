@@ -1,11 +1,9 @@
 # Nonparametric-Dirichlet-process-based-Latent-Factor-Model
 
 ## aknowledgement
-
-If you use the code or datasets in this resporsiry, please acknowedge the paper **"Fine-Grained Job Salary Benchmarking with a Nonparametric Dirichlet-process-based Latent Factor Model"**
+If you use the code or datasets in this respository, please acknowedge the paper **"Fine-Grained Job Salary Benchmarking with a Nonparametric Dirichlet-process-based Latent Factor Model"**
 
 ## data
-
 You can download the raw datasets used in this paper via the link: 
 
 *https://drive.google.com/drive/folders/1eW_30c-ZHYfBip4GAed-DsG9OLqyJZXT?usp=sharing*
@@ -14,7 +12,7 @@ You can download the preprocessed data in this paper via the link:
 
 *https://drive.google.com/drive/folders/1RsTLFg5tSmESQAkypr5G8-tW48nGMO66?usp=sharing*
 
-Please be aware of that, if you want to run the model using our datasets directly, you need to download the prprocessed data in the folder <font color=#A52A2A>"source_file"</font> and put them under the folder <font color=#A52A2A>"src"</font>.
+Please be aware of that, if you want to run the model using our datasets directly, you need to download the prprocessed data and put them under the directory: **"src/source_file"** .
 
 ## prerequisites (please install the following packages before you run this module)
 - python 3.6
