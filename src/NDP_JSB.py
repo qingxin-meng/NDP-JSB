@@ -23,7 +23,7 @@ scipy.special.loggamma
 
 class optimization():
     def __init__(self, beta=1, omega=1, max_voc=5000, lambda_t=0.1,
-                 lambda_s_a=1 , lambda_s_b=0.1, lambda_psi=1, latent_dim=5,
+                 lambda_s_a=5 , lambda_s_b=1, lambda_psi=1, latent_dim=5,
                  K=60, industry_dim=26, radius=1, update_varphi=False): 
 
         self.beta = beta

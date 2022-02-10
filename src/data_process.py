@@ -8,7 +8,7 @@ from scipy.sparse import csr_matrix
 
 
 class data():
-    def __init__(self,lambda_s_a=1,lambda_s_b=0.1, industry_dim=26, sample_threshold=5,
+    def __init__(self,lambda_s_a=5,lambda_s_b=1, industry_dim=26, sample_threshold=5,
                  reg_position_sim=5e-5,reg_company_sim=5e-5,reg_location_sim=5e-5):
         self.lambda_s_a=lambda_s_a
         self.lambda_s_b=lambda_s_b
