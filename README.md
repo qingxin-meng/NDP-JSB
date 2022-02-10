@@ -14,10 +14,10 @@ You can download the raw datasets used in this paper via the link: *https://driv
 The src file include all source code and a source_file folder which include all preprocessed data.
 To run the module, you need to download the whole src folder. Then open a terminal to run the commands. According to the different data spliting settings and datasets, there are four different options. I list the four options and the corresponding commands as below.
 - option 1 (runing the NPD-JSB model on the IT dataset with 5 cross-validation):
-  command: *python main.py --data_split_type cross_validate --data_source it*
+ `python main.py --data_split_type cross_validate --data_source it`
 - option 2 (runing the NPD-JSB model on the IT dataset with 5 varying proportional data splittings):
-  command: *python main.py --data_split_type proportional --data_source it*
+ `python main.py --data_split_type proportional --data_source it`
 - option 3 (runing the NPD-JSB model on the Finance dataset with 5 cross-validation):
-  command: *python main.py --data_split_type cross_validate --data_source finance*
+ `python main.py --data_split_type cross_validate --data_source finance`
 - option 4 ((runing the NPD-JSB model on the Finance dataset with 5 varying proportional data splittings):
-  command: *python main.py --data_split_type proportional --data_source finance*
+ `python main.py --data_split_type proportional --data_source finance`
