@@ -1,7 +1,7 @@
 # Nonparametric-Dirichlet-process-based-Latent-Factor-Model
 
-## aknowledgement
-If you use the code or datasets in this respository, please acknowedge the paper **"Fine-Grained Job Salary Benchmarking with a Nonparametric Dirichlet-process-based Latent Factor Model"**
+## citation
+If you use the code or datasets in this repository, please acknowledge the paper **"Fine-Grained Job Salary Benchmarking with a Nonparametric Dirichlet-process-based Latent Factor Model"**
 
 ## data
 You can download the raw datasets used in this paper via the link (with data descriptions): 
